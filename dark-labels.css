@@ -1,0 +1,28 @@
+/* Contraste reforzado para microtexto y etiquetas en tema oscuro. */
+body.dark .experience-card .date{
+  color:#12151a!important;
+  border-color:#f7f2e9!important;
+  box-shadow:3px 3px 0 #0d0f13!important;
+  font-weight:800!important;
+  letter-spacing:.04em;
+}
+body.dark .experience-card .card-label{
+  color:#fffaf2!important;
+  opacity:1!important;
+  font-weight:800!important;
+  text-shadow:0 1px 0 #000;
+}
+body.dark .experience-card .card-tags span{
+  color:#fffaf2!important;
+  background:#2b313b!important;
+  border-color:#fffaf2!important;
+  box-shadow:2px 2px 0 #0c0e12;
+  font-weight:800!important;
+}
+body.dark .experience-card .card-tags span:nth-child(2n){background:#26352f!important;border-color:#b9f3c8!important;color:#e8fff0!important}
+body.dark .experience-card .card-tags span:nth-child(3n){background:#37263a!important;border-color:#ffc6e1!important;color:#fff0f8!important}
+body.dark .experience-kicker,.dark .project>div>span:not(.fly-tag):not(.featured-ribbon){color:#fffaf2!important;opacity:1!important}
+body.dark .project>div>span:not(.fly-tag):not(.featured-ribbon){display:inline-block;padding:5px 7px;background:#292e37;border:1px solid rgba(255,250,242,.72);border-radius:3px}
+body.dark .fly-tag{color:#171717!important;background:#ffe184!important}
+body.dark .featured-ribbon{color:#171717!important}
+body.dark .tech-stack span{box-shadow:2px 2px 0 #080a0d!important}

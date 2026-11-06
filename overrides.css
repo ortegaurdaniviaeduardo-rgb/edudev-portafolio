@@ -1,0 +1,14 @@
+.project-description{display:block;max-width:470px;margin-top:9px;font-size:12px;font-weight:500;line-height:1.45;color:#5b605d}
+.project-buscavisos,.project-hydrotruck,.project-ee,.project-wine{background-position:center;background-size:cover;padding:0}
+.project-buscavisos{background-image:url('buscaavisos.png')}
+.project-hydrotruck{background-image:url('hydrotruck.png')}
+.project-ee{background-image:url('eeresegen.png')}
+.project-wine{background-image:url('privadowines.png')}
+.project-buscavisos .window,.project-hydrotruck>p,.project-hydrotruck .hydraulic,.project-ee .stihl-mark,.project-ee .blade,.project-ee>p,.project-wine .bottle,.project-wine>p{display:none}
+.more-list a{grid-template-columns:62px 1.5fr 1fr auto;align-items:center;min-height:78px;gap:14px;padding:10px 0}
+.more-list a:before{content:'';width:62px;height:52px;background:#697d79 center/cover no-repeat}
+.more-list .cristavales:before{background-image:url('cristavels.png')}
+.more-list .aurum:before{background-image:url('aurumtravel.png')}
+.more-list .electro:before{background-image:url('electro3d.png')}
+.more-list span{line-height:1.4}
+@media(max-width:700px){.project-description{font-size:11px}.more-list a{grid-template-columns:52px 1fr auto}.more-list a:before{width:52px;height:45px}.more-list span{grid-column:2}.more-list b{grid-column:3;grid-row:1}}

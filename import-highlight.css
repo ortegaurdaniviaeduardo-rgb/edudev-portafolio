@@ -1,0 +1,59 @@
+/* Import Sumary: caso destacado del portafolio. */
+.project.import.featured-project{
+  --accent:#ff9d16;
+  margin:112px -3% 118px;
+  padding:42px;
+  border:2px solid var(--ink);
+  border-radius:8px;
+  background:linear-gradient(135deg,#fff8e9 0%,#fffdf8 58%,#fff2d2 100%);
+  box-shadow:11px 12px 0 #ffb21b;
+}
+.project.import.featured-project:before{
+  content:'CASO DESTACADO';
+  position:absolute;
+  top:-15px;
+  left:34px;
+  padding:7px 12px;
+  background:#171717;
+  color:#fff;
+  font:700 10px 'DM Mono',monospace;
+  letter-spacing:.12em;
+  transform:rotate(-2deg);
+}
+.project.import.featured-project .shot{
+  border-width:3px;
+  box-shadow:12px 13px 0 #f59e0b;
+}
+.project.import.featured-project:hover{
+  border-color:var(--ink);
+  background:linear-gradient(135deg,#fff0cf 0%,#fffdf8 62%,#ffe6a5 100%);
+}
+.project.import.featured-project:hover .shot{box-shadow:16px 18px 0 #f59e0b;}
+.featured-ribbon{
+  display:table!important;
+  margin:0 0 11px!important;
+  padding:7px 10px!important;
+  background:#ff9d16;
+  border:2px solid var(--ink);
+  box-shadow:3px 3px 0 var(--ink);
+  font:800 10px 'DM Mono',monospace!important;
+  letter-spacing:.04em!important;
+  color:var(--ink);
+}
+.project.import .fly-tag{
+  background:#ffe184;
+  margin-bottom:12px!important;
+}
+.project.import h2{font-size:clamp(46px,5.6vw,70px);}
+.project.import .pill{background:#ffb21b;}
+.project.import .pill:hover{background:#ff9d16;}
+body.dark .project.import.featured-project{
+  background:linear-gradient(135deg,#30220d,#1c1e23 63%,#392708);
+  box-shadow:11px 12px 0 #a65d00;
+}
+body.dark .project.import.featured-project:hover{background:linear-gradient(135deg,#3b2a0d,#1c1e23 63%,#47320c);}
+@media(max-width:720px){
+  .project.import.featured-project{margin:88px -2% 94px;padding:28px 20px 30px;}
+  .project.import.featured-project:before{left:18px;top:-14px;font-size:9px;}
+  .project.import h2{font-size:48px;}
+}
